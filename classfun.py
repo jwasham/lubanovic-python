@@ -46,14 +46,14 @@ print("Description:", funRide.description)
 
 plainRide = Car()
 plainRide.make = 'Ford'
-plainRide.model = 'Tempo'
+plainRide.model = 'Fiesta'
 plainRide.set_year(1989)
 print("Description:", plainRide.description)
 
 otherRide = Car()
 otherRide.make = 'Ford'
-otherRide.model = 'LTD'
-otherRide.set_year(1977)
+otherRide.model = 'Pinto'
+otherRide.set_year(1971)
 print("Description:", otherRide.description)
 
 print("There are", Car.fleet_size(), 'cars.')
