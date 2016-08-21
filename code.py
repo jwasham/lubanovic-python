@@ -88,8 +88,7 @@ print(b)
 
 dicty = {
     "name": "John",
-    "address": "788 110th Ave NE",
-    "apt": "N1405",
+    "address": "123 Main St.",
 }
 
 print(dicty['name'])
@@ -142,21 +141,6 @@ for drink, ingredients in drinks.items():
 testList = ['one', 'capme', 'three']
 upperStr = testList[1].upper()
 print(upperStr)
-
-e2f = {
-    'dog': 'chien',
-    'cat': 'chat',
-    'walrus': 'morse'
-}
-
-print(e2f['walrus'])
-
-f2e = {}
-
-for eng, fr in e2f.items():
-    f2e[fr] = eng
-
-print(f2e['morse'])
 
 print('===== logic =====')
 
